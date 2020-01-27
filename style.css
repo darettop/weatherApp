@@ -1,4 +1,6 @@
-#logo {
-    max-width: 50px;
-    
+#welcomeScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 76px);
 }

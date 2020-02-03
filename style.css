@@ -1,6 +1,36 @@
-#welcomeScreen {
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.containerPadding {
+    padding: 0 14%;
+}
+
+#firstPage, #secondPage, #thirdPage {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 76px);
+    justify-content: left;
+    padding-top: 150px;
+    height: calc(100vh - 58px);
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+#weather {
+    font-size: 100px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#firstPage h1 {
+    color: #ffffff;
+    padding: 10px;
+    font-style: italic;
 }
